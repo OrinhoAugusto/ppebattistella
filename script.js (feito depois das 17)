@@ -1,0 +1,23 @@
+const calcular = () => {
+    const b = document.getElementById('b').value;
+    const c = document.getElementById('c').value;
+
+    var res;
+
+    if (b && c) {
+        let bb = parseFloat(b);
+        let cc = parseFloat(c);
+        res = Math.sqrt((bb * bb) + (cc * cc));
+    
+        document.getElementById("resultado").value = res;
+        return;
+    }
+
+    document.getElementById("resultado").value = 'Dados Incorretos';
+}
+
+const limpar = () => {
+    document.getElementById('b').value='';
+    document.getElementById('c').value='';
+    document.getElementById('resultado').value='';
+}
