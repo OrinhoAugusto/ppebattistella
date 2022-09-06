@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação Trimestral Parte Prática</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>Calculadora do Teorema de Pitágoras</header>
+    <div class="container">
+        <div class="calculo">
+            Fórmula do Teorema de Pitágoras: a² = b² + c²
+        </div>
+        <div class="imagem">
+            <img src="imagens/triangulo.png" alt="Triângulo Retâgulo">
+        </div>
+        <div class="catetos">
+            <input id="b" type="number" placeholder="Cateto B">
+            <input id="c" type="number" placeholder="Cateto C">
+        </div>
+        <div class="botoes">
+            <button class="button calc" onclick="calcular()">Calcular</button>
+            <button class="button limp" onclick="limpar()">Limpar</button>
+        </div>
+        <div class="resultado">
+            <input id="resultado" type="text" disabled placeholder="Resultado">
+        </div>
+    </div>
+    <footer>
+        <p>Aluno: Augusto Saravia Tavares</p>
+        <p>Área: Lógica de Programação</p>
+        <p>Turma: 2º B</p>
+        <p>Escola: Escola S</p>
+    </footer>
+</body>
+
+</html>
