@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px !important;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(255, 35, 35);
+    border: 5px solid darkred;
+    width: 50%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    border: 5px solid darkred;
+    background-color: rgb(255, 35, 35);
+    width: 50%;
+    margin: auto;
+    padding: 5px 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+footer p {
+    margin: 3px 0;
+}
+
+.imagem img {
+    width: 300px;
+    margin: 10px 0;
+    border: 5px solid darkred;
+}
+
+.calculo {
+    font-size: x-large;
+}
+
+body {
+    background-color: #eee;
+}
+
+input {
+    width: 100px;
+    text-align: center;
+    height: 20px;
+    border: 2px solid darkred;
+    background-color: rgb(207, 1, 1);
+    color: white;
+}
+    color: white;
+}
+
+
+::placeholder {
+    margin: 10px 5px;
+button {
+    width: 100px;
+    height: 30px;
+    border: 5px solid rgb(255, 238, 0);
+    background-color: rgb(255, 238, 0);
+    color: rgb(0, 0, 0);
+}
